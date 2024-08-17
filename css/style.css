@@ -2,12 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-body{
-    background-color: rgb(36, 231, 199);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(180, 231, 37);
+.image{
+    border: 5px solid;
 }
