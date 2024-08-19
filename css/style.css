@@ -3,4 +3,110 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #222222;
+}
+.hero-section{
+    background: url('/assets/hero-section.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0 0 0;
+    height: 897px;
+    align-content: space-between;
+}
+.title{
+
+}
+
+#hero-card-1,#hero-card-2,#hero-card-3,#hero-card-4{
+    background: white;
+    text-align: center;
+    width: 400px;
+    margin: 10px 10px 0 10px;
+    padding: 20px;
+    color: #ffffff;
+    transform: translateY(100%);
+}
+
+#hero-card-1{
+    background: #1C75BC;
+}
+
+#hero-card-2{
+    background: #194CA0;
+}
+#hero-card-3{
+    background: #0D2F65;
+}
+#hero-card-4{
+    background: #222222;
+}
+.card-title{
+    color: #ffffff;
+}
+
+.property-management-section{
+    height: 1039px;
+    background: url('/assets/property\ management.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#services-section{
+    padding: 60px;
+}
+
+#why-hire-us-page{
+    background: #222222;
+    color: #ffffff;
+}
+.description b, p{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#why-hire-us-icon{
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+}
+#why-hire-us-right-page{
+    background: url('/assets/stewardship\ reality.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section-4-card{
+    padding: 20px;
+    background: #F1F1F1;
+    border-radius: 10px;
+}
+#section-4-card p{
+    color: #222222;
+}
+#areas-we-serve-section{
+    height: 818px;
+    background: url('/assets/areas\ we\ serve.png');
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.areas-we-serve-banner{
+    height: 307px;
+    width: 934px;
+    background: #222222;
+    transform:translateY(200%) ;
+}
+
+#title-div{
+border:5px solid #D9D9D9;
+min-width: 237px;
+}
+
+#footer{
+    padding:10% 0 120px 0;
 }
