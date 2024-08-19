@@ -22,7 +22,7 @@ body{
     background-size: cover;
     padding: 60px 0 0 0;
     height: 897px;
-    box-shadow: -400px 0 400px #ffffff inset;
+    box-shadow: -1000px 0 600px #ffffff inset;
 }
 #hero-title{
     font-size: 60px;
@@ -34,6 +34,7 @@ body{
     color: #222222;
     font-size: 28px;
     width: 503px;
+    line-height: 29.12px;
 
 }
 
@@ -41,7 +42,7 @@ body{
     background: white;
     text-align: center;
     width: 400px;
-    margin: 200px 10px 0 10px;
+    margin: 240px 10px 0 10px;
     padding: 20px 40px 20px 40px;
     color: #ffffff;
     height: 243px;
@@ -76,10 +77,56 @@ body{
     background-position: center;
     background-size: cover;
     text-align: center;
+    box-shadow: 0 450px 600px #ffffff inset;
 }
 
 #services-section{
-    padding: 60px;
+    padding: 6% 0 6% 0;
+}
+.service-title p{
+color:#222222;
+}
+
+#service-icon{
+    width: 60px;
+    height: 60px;
+    padding: 16px;
+    background:#F1F1F1;
+}
+.service-title p{
+    color: #154CA4;
+    font-size: 22px;
+    font-weight: 700;
+}
+#service-description{
+    color: #222222;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 36px;
+}
+.service-title a{
+    text-decoration: none;
+    color: #039444;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+#minimize-risk{
+    padding: 40px;
+    background: #039444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#minimize-risk p{
+    font-size: 30px;
+}
+#minimize-risk img{
+    width:60px;
+    background:#F1F1F1 ;
+    margin-left: 15px;
+    padding: 10px;
 }
 
 #why-hire-us-page{
@@ -131,6 +178,7 @@ border:5px solid #D9D9D9;
 min-width: 237px;
 }
 
+/* footer */
 #footer{
     padding:10% 0 120px 0;
 }
