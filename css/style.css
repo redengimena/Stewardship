@@ -6,7 +6,7 @@
     color: #222222;
 }
 .hero-section{
-    background: url('assets/hero-section.jfif');
+    background: url('/assets/hero-section.jfif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -47,7 +47,7 @@
 
 .property-management-section{
     height: 1039px;
-    background: url('assets/property\ management.jfif');
+    background: url('/assets/property\ management.jfif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -73,7 +73,7 @@
     background: #ffffff;
 }
 #why-hire-us-right-page{
-    background: url('assets/stewardship\ reality.png');
+    background: url('/assets/stewardship\ reality.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -89,7 +89,7 @@
 }
 #areas-we-serve-section{
     height: 818px;
-    background: url('assets/areas\ we\ serve.png');
+    background: url('/assets/areas\ we\ serve.png');
     display: flex;
     justify-content: center;
     text-align: center;
