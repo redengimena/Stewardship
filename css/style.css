@@ -133,6 +133,7 @@ color:#222222;
 #why-hire-us-page{
     background: #222222;
     color: #ffffff;
+    height: 1717px;
 }
 .description b, p{
     color: #ffffff;
@@ -174,6 +175,7 @@ color:#222222;
     background: url('/assets/areas\ we\ serve.png');
     background-repeat: no-repeat;
     display: flex;
+    background-size: cover;
     justify-content: center;
     text-align: center;
     margin-top: 10%;
@@ -195,4 +197,7 @@ min-width: 237px;
 /* footer */
 #footer{
     padding:10% 0 120px 0;
+}
+#footer li{
+    list-style: none;
 }
