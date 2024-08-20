@@ -135,7 +135,7 @@ color:#222222;
 }
 .description b, p{
     color: #ffffff;
-    margin-left: 10px;
+    margin-left: 5%;
 }
 
 #why-hire-us-icon{
@@ -158,19 +158,32 @@ color:#222222;
 #section-4-card p{
     color: #222222;
 }
+
+/* badge */
+#badge-btn{
+    position: relative;
+    left: 45%;
+    margin-bottom: 20%;
+    width: 200px;
+}
+
+/* areas we serve */
 #areas-we-serve-section{
     height: 818px;
     background: url('/assets/areas\ we\ serve.png');
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 10%;
 }
 
 .areas-we-serve-banner{
     height: 307px;
     width: 934px;
     background: #222222;
-    transform:translateY(200%) ;
+    transform:translateY(200%);
+    padding: 10% 0 10% 0;
 }
 
 #title-div{
