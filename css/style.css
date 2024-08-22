@@ -15,24 +15,27 @@ body{
     color:#222222;
     font-weight: 500;
 }
+#management-btn{
+    font-size: calc(0.5vw + 6px);
+}
 .hero-section{
     background: url('/assets/hero-section.jfif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 60px 0 0 0;
+    padding-top: 60px;
     height: 897px;
     box-shadow: -1000px 0 600px #ffffff inset;
 }
 #hero-title{
-    font-size: 60px;
+    font-size: calc(2vw + 20px);
     line-height: 59.4px;
     font-weight: 700;
     padding-top: 10%;
 }
 #hero-title-p{
     color: #222222;
-    font-size: 28px;
+    font-size: calc(1vw + 8px);
     width: 503px;
     line-height: 29.12px;
 
@@ -41,14 +44,12 @@ body{
 #hero-card-1,#hero-card-2,#hero-card-3,#hero-card-4{
     background: white;
     text-align: center;
-    width: 400px;
+    width: 388px;
     margin: 240px 10px 0 10px;
     padding: 20px 40px 20px 40px;
     color: #ffffff;
     height: 243px;
-    align-items: center;
-    font-size: 22px;
-    
+    font-size: calc(0.5vw + 6px);   
 }
 
 #hero-card-1{
@@ -69,7 +70,9 @@ body{
     font-size: 22px;
     font-weight: 500;
 }
-
+#card-group-mobile{
+    display: none;
+}
 .property-management-section{
     height: 1039px;
     background: url('/assets/property\ management.jfif');
@@ -200,4 +203,29 @@ min-width: 237px;
 }
 #footer li{
     list-style: none;
+}
+
+@media(max-width:990px){
+    #card-group{
+        display: none !important;
+    }
+    #card-group-mobile{
+        display: block;
+        margin-top: -10%;
+    }
+    .hero-section{
+        background: url('/assets/hero-section-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: none
+    }
+    #hero-card-1,#hero-card-2,#hero-card-3,#hero-card-4{
+        text-align: center;
+        padding: 20px 40px 20px 40px;
+        color: #ffffff;
+        height: 243px;
+        font-size: calc(0.5vw + 6px);
+        margin: 50% 0 0 18%;
+    }
+
 }
