@@ -186,10 +186,10 @@ color:#222222;
 
 .areas-we-serve-banner{
     height: 307px;
-    width: 934px;
+    width:934px;
     background: #222222;
     transform:translateY(200%);
-    padding: 10% 0 10% 0;
+    padding: 10% 5% 10% 5%;
 }
 
 #title-div{
@@ -226,6 +226,9 @@ min-width: 237px;
         height: 243px;
         font-size: calc(0.5vw + 6px);
         margin: 50% 0 0 18%;
+    }
+    .areas-we-serve-banner{
+        width: calc(13vw + 300px);
     }
 
 }
