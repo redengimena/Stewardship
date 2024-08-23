@@ -230,5 +230,8 @@ min-width: 237px;
     .areas-we-serve-banner{
         width: calc(13vw + 300px);
     }
+    #footer{
+        margin-top: 10%;
+    }
 
 }
